@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import BASE_URL
 
-# Тест перехода в пункт меню
+# Тест перехода в корневой пункт меню
 def menu_test():
     driver = webdriver.Chrome()
     
